@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Itune2020</string>
+    <string name="reset_search">Reset Search</string>
+    <string name="search">Search</string>
+</resources>

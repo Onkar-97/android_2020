@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/itunes"
+    tools:context=".MainActivity"
+
+    tools:ignore="Orientation">
+
+    <SearchView
+        android:id="@+id/sea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:queryHint="Search"
+
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/search"
+
+        android:layout_marginStart="20dp" />
+
+    <Button
+        android:id="@+id/rst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_search"/>
+
+    <ListView
+        android:id="@+id/listitm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+    </ListView>
+
+
+</LinearLayout>
